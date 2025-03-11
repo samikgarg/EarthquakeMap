@@ -20,10 +20,6 @@ EarthquakeMap is a **Java-based interactive visualization** project developed as
   - Clicking on an **earthquake** marker reveals additional details.  
   - Clicking on a **city** displays a pop-up with the number of nearby earthquakes, **average magnitude**, and the **most recent quake**.  
 
-- **✨ Custom Extension**  
-  - Implemented a **new feature** to track and display **historical earthquake trends** over time.  
-  - Integrated **additional data sources** for deeper analysis.  
-
 ## 🛠️ Technologies Used
 - **Java**  
 - **UnfoldingMaps Library**  
