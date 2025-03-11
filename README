@@ -1,41 +1,36 @@
-unfolding_app_template and UC San Diego/Coursera MOOC starter code
-==================================================================
+# 🌍 EarthquakeMap - Interactive Visualization of Earthquakes
 
-This is a skeleton to use Unfolding in Eclipse as well as some starter
-code for the Object Oriented Programming in Java course offered by 
-UC San Diego through Coursera.
+## 📌 Description
+EarthquakeMap is a **Java-based interactive visualization** project developed as part of the **Object-Oriented Programming in Java** Coursera course by **UC San Diego**. This project utilizes **UnfoldingMaps** to display real-time earthquake data on a geographical map, incorporating **sorting, filtering, and interactive UI elements**.
 
-A very basic Unfolding demo you'll find in the source folder in the default package. 
-For more examples visit http://unfoldingmaps.org, or download the template with
-examples.
+## 🚀 Features
+- **🔎 Sorting & Filtering Earthquake Data**  
+  - Implemented **Comparable** interface to sort earthquakes by **magnitude in descending order**.  
+  - Integrated **custom filtering** to display earthquakes above a given magnitude threshold.  
 
-The module folders contain the starter code for the programming assignments
-associated with the MOOC.
+- **🗺️ Interactive Map Visualization**  
+  - Utilized **UnfoldingMaps** to display earthquake locations using **custom markers**.  
+  - Different marker sizes & colors represent earthquake severity.  
 
-Get excited and make things!
+- **⚠️ Threat Circle Calculations**  
+  - Determined **impact radius** based on earthquake magnitude.  
+  - Highlighted affected cities when earthquakes occur nearby.  
 
+- **💡 Enhanced UI Interactions**  
+  - Clicking on an **earthquake** marker reveals additional details.  
+  - Clicking on a **city** displays a pop-up with the number of nearby earthquakes, **average magnitude**, and the **most recent quake**.  
 
-INSTALLATION
+- **✨ Custom Extension**  
+  - Implemented a **new feature** to track and display **historical earthquake trends** over time.  
+  - Integrated **additional data sources** for deeper analysis.  
 
-Import this folder in Eclipse ('File' -> 'Import' -> 'Existing Projects into
-Workspace', Select this folder, 'Finish')
+## 🛠️ Technologies Used
+- **Java**  
+- **UnfoldingMaps Library**  
+- **Processing API**  
+- **Geographical Data Parsing (JSON/XML)**  
 
-
-MANUAL INSTALLATION
-
-If the import does not work follow the steps below.
-
-- Create new Java project
-- Copy+Paste all files into project
-- Add all lib/*.jars to build path
-- Set native library location for jogl.jar. Choose appropriate folder for your OS.
-- Add data/ as src
-
-
-TROUBLE SHOOTING
-
-Switch Java Compiler to 1.6 if you get VM problems. (Processing should work with Java 1.6, and 1.7)
-
-
-
-
+## 🎯 Learning Outcomes
+- Applied **object-oriented design principles** in Java.  
+- Developed an interactive **data-driven application** using external datasets.  
+- Gained experience in **GUI development, event handling, and map-based interactions**.  
